@@ -150,8 +150,8 @@ jobs:
 
           docker stop smoke-test-api
 
-       - name: Push to Docker Hub
-         run: |
+      - name: Push to Docker Hub
+        run: |
            echo "${{ secrets.DOCKER_PASSWORD }}" \
              | docker login --username "${{ secrets.DOCKER_USERNAME }}" --password-stdin
            docker push fraud-detection-api:latest
