@@ -296,7 +296,7 @@ def main() -> None:
     save_model(model, encoder)
 
     print("\n=== Training complete! Run 'pytest tests/' to validate. ===\n")
-
+    print("done")
 
 if __name__ == "__main__":
     main()
