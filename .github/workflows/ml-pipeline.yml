@@ -47,6 +47,7 @@ jobs:
         run: pytest tests/test_data.py -v --tb=short
 
   # ── STAGE 2: Train & Validate Model ─────────────────────────────────────────
+    # ── STAGE 2: Train & Validate Model ─────────────────────────────────────────
   train-and-validate:
     name: "Stage 2 — Train & Validate Model"
     runs-on: ubuntu-latest
